@@ -1,0 +1,15 @@
+Step1: Start your red hat os in virtual box.
+Step2: Install docker -ce by using yum command.
+Step3: "docker pull os_name"-to download os image file.
+Step4: "docker run -it centos"-to install docker image in container.
+Step5: "yum install httpd"-to install apache web server.
+Step6: "yum install net-tools"-to install net tools.
+Step7: "cd /var/www/html"-go to web server folder.
+Step8: "touch index.html"-to create html file.
+Step9: "cat >index.html"-to write the html in it amd then save it.
+Step10: "cd"-to go back to home.
+Step11: " vi /root/.bashrc"
+Step12: "rm -rf /var/run/httpd/*
+         /Usr/sbin/httpd"-to start web server services.
+Step13: use curl command to check web server.
+Step14: exit
